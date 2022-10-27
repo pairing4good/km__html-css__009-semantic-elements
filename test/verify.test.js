@@ -36,30 +36,29 @@ afterEach(async () => {
   await browser.close();
 });
 
-describe("paragraph text", () => {
-  it("should have underlined text", async () => {
-    const title = await page.$("u");
-    expect(title).not.toBeNull();
+describe("the webpage", () => {
+  it("should have a header element", async () => {
+    const element = await page.$("header");
+    expect(element).not.toBeNull();
   });
-});
 
-describe("paragraph text", () => {
-  it("should have emphasized text", async () => {
-    const heading = await page.$("em");
-    expect(heading).not.toBeNull();
+  it("should have a navigation element", async () => {
+    const element = await page.$("nav");
+    expect(element).not.toBeNull();
   });
-});
 
-describe("paragraph text", () => {
-  it("should have text that has been stuck through", async () => {
-    const paragraph = await page.$("s");
-    expect(paragraph).not.toBeNull();
+  it("should have a article element", async () => {
+    const element = await page.$("article");
+    expect(element).not.toBeNull();
   });
-});
 
-describe("paragraph text", () => {
-  it("should have bold text", async () => {
-    const paragraph = await page.$("strong");
-    expect(paragraph).not.toBeNull();
+  it("should have a section element", async () => {
+    const element = await page.$("section");
+    expect(element).not.toBeNull();
+  });
+
+  it("should have a footer element", async () => {
+    const element = await page.$("footer");
+    expect(element).not.toBeNull();
   });
 });

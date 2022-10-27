@@ -1,11 +1,9 @@
 The `index.html` file
-- should have some underlined text within the existing paragraph
-- should have some text that has been emphasized within the exiting paragraph
-- should have some text that has been struckthrough within the exiting paragraph
-- should have some bold text within the exisiting paragraph
+- should have a header element
+- should have a navigation element
+- should have an article element
+- should have a section element
+- should have a footer element
 
 Resources:
-- https://www.w3schools.com/tags/tag_u.asp
-- https://www.w3schools.com/tags/tag_em.asp
-- https://www.w3schools.com/tags/tag_s.asp
-- https://www.w3schools.com/tags/tag_strong.asp
+- https://www.w3schools.com/html/html5_semantic_elements.asp
