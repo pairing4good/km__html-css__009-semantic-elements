@@ -1,3 +1,7 @@
+# 009 Semantic Elements
+
+[![009 Semantic Elements](https://img.youtube.com/vi/TFkY0GrgpZo/0.jpg)](https://www.youtube.com/watch?v=TFkY0GrgpZo)
+
 The `index.html` file
 - should have a header element
 - should have a navigation element
